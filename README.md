@@ -69,7 +69,7 @@ with open("test_data", 'w') as outfile:
 ```
 - Merge the movie lists by matching the movie names from ReDial and Movielens. Note that this will create an intermediate file `movies_matched.csv`, which is deleted at the end of the script.
 ```
-python match_movies.py --redial_movies_path=/path/to/redial/movies_with_mentions.csv --ml_movies_path=/path/to/movielens/movies.csv --destination=/path/to/redial/merged_movie_list.csv
+python match_movies.py --redial_movies_path=/path/to/redial/movies_with_mentions.csv --ml_movies_path=/path/to/movielens/movies.csv --destination=/path/to/redial/movies_merged.csv
 ```
 
 ### Specify the paths
