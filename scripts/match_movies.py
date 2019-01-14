@@ -123,7 +123,7 @@ def find_in_file(db_path, movielens_path, write_to="movies_matched.csv"):
                 break
         if found == 0:
             total_movie_not_matched += 1
-    print("Over {} movies mentioned in DB, {} of them are perfectly matched, {} of them have no match in the file"
+    print("Over {} movies mentioned in ReDial, {} of them are perfectly matched, {} of them have no match in movielens"
         .format(len(movies_db), total_exact_matches, total_movie_not_matched))
 
     with open(write_to, 'w') as f:

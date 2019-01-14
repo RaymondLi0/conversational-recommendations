@@ -3,3 +3,7 @@
 
 *.csv
 *.tar.gz
+
+# datasets
+redial
+movielens
