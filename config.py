@@ -17,6 +17,9 @@ MOVIE_PATH = os.path.join(REDIAL_DATA_PATH, "movies_merged.csv")
 VOCAB_PATH = os.path.join(REDIAL_DATA_PATH, "vocabulary.p")
 
 # reddit data path
+# (If you want to pre-train the model on the movie subreddit, from the FB movie dialog dataset)
+# Note: this was not used to produce the results in "Towards Deep Conversational Recommendations" as it did not
+# produce good results for us.
 REDDIT_PATH = "/path/to/fb_movie_dialog_dataset/task4_reddit"
 REDDIT_TRAIN_PATH = "task4_reddit_train.txt"
 REDDIT_VALID_PATH = "task4_reddit_dev.txt"

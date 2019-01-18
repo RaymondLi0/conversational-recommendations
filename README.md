@@ -19,8 +19,12 @@ https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations
 Get ReDial data from https://github.com/ReDialData/website/tree/data and Movielens data https://grouplens.org/datasets/movielens/latest/. Note that for the paper we retrieved the Movielens
 data set in September 2017. The Movielens latest dataset has been updated since then.
 ```
-cd project_dir
-mkdir redial movielens
+git clone https://github.com/RaymondLi0/conversational-recommendations.git
+cd conversational-recommendations
+pip install -r requirements.txt
+python -m nltk.downloader punkt
+
+mkdir -p redial movielens
 wget -O redial/redial_dataset.zip https://github.com/ReDialData/website/raw/data/redial_dataset.zip
 wget -O movielens/ml-latest.zip http://files.grouplens.org/datasets/movielens/ml-latest.zip
 # split ReDial data
