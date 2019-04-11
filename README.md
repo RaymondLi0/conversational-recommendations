@@ -1,7 +1,7 @@
 # movie-dialogue-dev
 
 This repository contains the code for NeurIPS 2018 paper "Towards Deep Conversational Recommendations" 
-https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations
+https://arxiv.org/abs/1812.07617
 
 ## Requirements
 
